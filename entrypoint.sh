@@ -2,12 +2,12 @@
 
 echo "=========="
 
-echo '${GITUB_ACTOR} is: '
-echo "${GITUB_ACTOR}"
+echo '${GITHUB_ACTOR} is: '
+echo "${GITHUB_ACTOR}"
 echo '${INPUT_EMAIL} is: '
 echo "${INPUT_EMAIL}"
 
-git config --global user.name "${GITUB_ACTOR}"
+git config --global user.name "${GITHUB_ACTOR}"
 git config --global user.email "${INPUT_EMAIL}"
 git config --global --add safe.directory /github/workspace
 
